@@ -1,0 +1,2 @@
+df['Fare'] = df['Fare'].str.extract('(\d+)', expand=False).astype(int)
+df['Seat_Availability'] = df['Seat_Availability'].str.extract('(\d+)', expand = False).astype(int)
